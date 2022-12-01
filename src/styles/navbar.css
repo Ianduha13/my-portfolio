@@ -3,43 +3,55 @@
   font-weight: 300;
   position: fixed;
   top: 0;
+  z-index: 1;
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+.navbar-container{
   height: 64px;
+  display: flex;
+  justify-content: space-between;
   align-items: center;
-  padding: 24px 0px;
+  width: 90%;
+  max-width: 800px;
 }
 .navbar-right{
   display: flex;
-}
-
-.navbar-left ul{
-  width: 200px;
-  display: flex;
-  justify-content: space-between;
-  text-decoration: none;
-  list-style: none;
-  
 }
 .navbar-btn{
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid var(--primary-color);
   margin-left: 4px;
   width: 32px;
   height: 32px;
   border-radius: 8px;
   background: transparent;
+  border: none;
 }
 .left-btn{
+  font-size: 1.2rem;
   color: var(--primary-color);
-  width: 48px;
-  height: 32px;
+  width: fit-content;
+  height: fit-content;
+  margin-right: 16px;
+  padding: 5px 8px;
+  outline: none;
+  border-radius: 0.375rem;
+}
+.navbar-left ul{
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+  padding: 0;
 }
 .inactive{
   display: none;
+}
+.navbar-btn:hover{
+  background-color: var(--primary-bg-color);
 }
 @media (max-width: 750px) {
   .inactive{

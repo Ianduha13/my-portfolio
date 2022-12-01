@@ -13,7 +13,15 @@ body {
   font-family: var(--text-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+b{
+  font-family: var(--title-font);
+  font-weight: var(--title-weight);
 }
 .dark{
   background-color: #171923;

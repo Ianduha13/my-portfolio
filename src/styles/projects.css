@@ -1,6 +1,11 @@
-.header{
+.project-header{
   font-family: var(--title-font);
   font-weight: var(--title-weight);
+  margin-top: 40px;
+  font-size: 2rem;
+  font-weight: 500;
+  width: 90%;
+  max-width: 800px;
 }
 .projects-section{
   width: 100%;
@@ -10,7 +15,8 @@
 }
 .project-card{
   margin-top: 12px;
-  width: 40%;
+  width: 90%;
+  max-width: 800px;
   padding: 1rem;
   background-color: var(--third-bg-color);
   border-radius: 0.75rem;

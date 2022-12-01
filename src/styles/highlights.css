@@ -10,8 +10,9 @@
   padding: 16px 16px;
   font-size: 18px;
   font-weight: 200;
-  width: 40%;
   border-radius: 5px;
+  width: 90%;
+  max-width: 800px;
 }
 .highlights p {
   font-family: var(--title-font);

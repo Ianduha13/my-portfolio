@@ -1,10 +1,11 @@
-.img{
-  padding: 75px;
-  border-radius: 100%;
-  border: 1px solid var(--primary-color);
-  font-weight: 300;
+.header-container{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .header{
+  animation: shake 2s ease-in-out infinite alternate;
   font-family: var(--title-font);
   margin-top: 80px;
   display: flex;
@@ -13,16 +14,38 @@
   font-weight: 500;
 }
 .presentation-container{
-  margin-top: 12;
   font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 90%;
+  max-width: 800px;
 }
 .presentation{
-  width: 30%;
   margin-left: 20px;
   font-weight: 300;
+}
+.img{
+  padding: 75px;
+  border-radius: 100%;
+  border: 1px solid var(--primary-color);
+  font-weight: 300;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
 }

@@ -2,7 +2,7 @@ import "../styles/projects.css"
 const Projects = () => {
   return (
     <section className='projects-section'>
-      <header className='header'>Projects</header>
+      <header className='project-header'>Projects</header>
       <div className='project-card'>
         <h4>Pendraw Digital Camp</h4>
         <p>
