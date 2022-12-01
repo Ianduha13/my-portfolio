@@ -2,7 +2,7 @@ import { useState, useEffect } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
-import AboutPage from "./pages/AboutPage"
+import StackPage from "./pages/StackPage"
 import LandingPage from "./pages/LandingPage"
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
         <Navbar theme={theme} onClick={toggleTheme} />
         <Routes>
           <Route path='/' element={<LandingPage />} />
-          <Route path='/about' element={<AboutPage />} />
+          <Route path='/stack' element={<StackPage />} />
         </Routes>
       </BrowserRouter>
       <Footer />

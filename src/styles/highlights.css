@@ -13,9 +13,12 @@
   border-radius: 5px;
   width: 90%;
   max-width: 800px;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);;
 }
 .highlights p {
   font-family: var(--title-font);
+  font-weight: var(--title-weight);
+  font-size: 1.2rem;
   margin-left: 4px;
   margin-top: 4px;
 }

@@ -14,19 +14,16 @@ const Navbar = ({ theme, onClick }) => {
                 className='navbar-btn left-btn'
                 onClick={() => navigate("/")}
               >
-                img
+                Home
               </button>
             </li>
             <li className='about'>
               <button
                 className='navbar-btn left-btn'
-                onClick={() => navigate("/about")}
+                onClick={() => navigate("/stack")}
               >
-                About
+                Stack
               </button>
-            </li>
-            <li className='links'>
-              <button className='navbar-btn left-btn'>Links</button>
             </li>
           </ul>
         </div>

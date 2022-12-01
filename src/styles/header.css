@@ -7,14 +7,13 @@
 .header{
   animation: shake 2s ease-in-out infinite alternate;
   font-family: var(--title-font);
+  font-weight: var(--title-weight);
+  font-size: 2rem;
   margin-top: 80px;
   display: flex;
   justify-content: center;
-  font-size: 2rem;
-  font-weight: 500;
 }
 .presentation-container{
-  font-size: 1.5rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -24,14 +23,14 @@
 }
 .presentation{
   margin-left: 20px;
-  font-weight: 300;
+  font-size: 1.5rem;
 }
 .img{
   padding: 75px;
   border-radius: 100%;
   border: 1px solid var(--primary-color);
-  font-weight: 300;
 }
+
 @keyframes shake {
   10%, 90% {
     transform: translate3d(-1px, 0, 0);
