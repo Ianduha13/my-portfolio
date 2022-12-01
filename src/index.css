@@ -1,24 +1,35 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&family=Red+Hat+Text:wght@300&display=swap');
 
 *{
   margin: 0;
   box-sizing: border-box;
+  --text-font: 'Red Hat Text', sans-serif;
+  --title-font: 'Red Hat Display', sans-serif;
+  --title-weight: 700;
+  --text-weight: 200;
 }
 body {
   margin: 0;
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: var(--text-font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow: auto;
 }
 .dark{
   background-color: #171923;
   color: rgba(255, 255, 255, 0.92) ;
   --primary-color: rgba(255, 255, 255, 0.92) ;
+  --secondary-color: #2D3748;
   --primary-bg-color: #171923;
+  --secondary-bg-color: rgb(30, 37, 51);
+  --third-bg-color: #1A202C
 }
 .light{
   background-color: #F7FAFC;
   color: #2D3748;
   --primary-color: #2D3748 ;
+  --secondary-color: #EDF2F7;
   --primary-bg-color: #F7FAFC;
+  --secondary-bg-color:#EDF2F7;;
+  --third-bg-color: #EDF2F7;
 }

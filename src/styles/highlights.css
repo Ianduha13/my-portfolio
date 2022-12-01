@@ -1,0 +1,30 @@
+.highlights-container{
+  margin-top: 36px;
+  display: flex;
+  justify-content: center;
+}
+.highlights{
+  background-color: var(--secondary-bg-color);
+  border: 0px solid var(--primary-color);
+  border-left: 4px solid rgb(83, 200, 196);
+  padding: 16px 16px;
+  font-size: 18px;
+  font-weight: 200;
+  width: 40%;
+  border-radius: 5px;
+}
+.highlights p {
+  font-family: var(--title-font);
+  margin-left: 4px;
+  margin-top: 4px;
+}
+.highlights ul li{
+  margin-top: 4px;
+}
+.highlights ul li a{
+  text-decoration: none;
+  color: var(--primary-color);
+}
+.highlights:hover{
+  transform: scale(1.01);
+}

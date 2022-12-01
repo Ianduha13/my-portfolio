@@ -1,24 +1,26 @@
 .navbar{
-  background-color: var(--primary-bg-color);
+  background-color: var(--secondary-bg-color);
   font-weight: 300;
   position: fixed;
   top: 0;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  height: 5%;
+  height: 64px;
   align-items: center;
   padding: 24px 0px;
-  border-bottom: 1px solid var(--primary-color);
 }
 .navbar-right{
   display: flex;
 }
 
-.navbar-left{
+.navbar-left ul{
   width: 200px;
   display: flex;
   justify-content: space-between;
+  text-decoration: none;
+  list-style: none;
+  
 }
 .navbar-btn{
   display: flex;
@@ -30,6 +32,11 @@
   height: 32px;
   border-radius: 8px;
   background: transparent;
+}
+.left-btn{
+  color: var(--primary-color);
+  width: 48px;
+  height: 32px;
 }
 .inactive{
   display: none;

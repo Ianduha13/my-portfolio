@@ -1,0 +1,21 @@
+.header{
+  font-family: var(--title-font);
+  font-weight: var(--title-weight);
+}
+.projects-section{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.project-card{
+  margin-top: 12px;
+  width: 40%;
+  padding: 1rem;
+  background-color: var(--third-bg-color);
+  border-radius: 0.75rem;
+  border: 1px solid var(--secondary-color);
+}
+.project-card:hover{
+  transform: scale(1.01);
+}

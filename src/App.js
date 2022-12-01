@@ -4,9 +4,9 @@ import Navbar from "./components/Navbar"
 import LandingPage from "./pages/LandingPage"
 
 function App() {
-  const [theme, setTheme] = useState("light")
+  const [theme, setTheme] = useState("dark")
   const toggleTheme = () => {
-    theme === "light" ? setTheme("dark") : setTheme("light")
+    theme === "dark" ? setTheme("light") : setTheme("dark")
   }
   useEffect(() => {
     document.body.className = theme
