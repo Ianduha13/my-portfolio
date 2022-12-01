@@ -1,4 +1,5 @@
 .navbar{
+  background-color: var(--primary-bg-color);
   font-weight: 300;
   position: fixed;
   top: 0;
@@ -8,7 +9,7 @@
   height: 5%;
   align-items: center;
   padding: 24px 0px;
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid var(--primary-color);
 }
 .navbar-right{
   display: flex;
@@ -23,7 +24,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid rgb(191,191,191);
+  border: 1px solid var(--primary-color);
   margin-left: 4px;
   width: 32px;
   height: 32px;

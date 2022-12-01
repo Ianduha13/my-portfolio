@@ -13,8 +13,12 @@ body {
 .dark{
   background-color: #171923;
   color: rgba(255, 255, 255, 0.92) ;
+  --primary-color: rgba(255, 255, 255, 0.92) ;
+  --primary-bg-color: #171923;
 }
 .light{
   background-color: #F7FAFC;
   color: #2D3748;
+  --primary-color: #2D3748 ;
+  --primary-bg-color: #F7FAFC;
 }

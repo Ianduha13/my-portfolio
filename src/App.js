@@ -1,12 +1,12 @@
 import { useState, useEffect } from "react"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Navbar from "./components/Navbar"
-import Header from "./components/Header"
+import LandingPage from "./pages/LandingPage"
 
 function App() {
   const [theme, setTheme] = useState("light")
   const toggleTheme = () => {
     theme === "light" ? setTheme("dark") : setTheme("light")
-    console.log(`toggle state change ${theme}`)
   }
   useEffect(() => {
     document.body.className = theme
@@ -14,8 +14,12 @@ function App() {
 
   return (
     <div className={`App ${theme}`}>
-      <Navbar theme={theme} onClick={toggleTheme} />
-      <Header />
+      <BrowserRouter>
+        <Navbar theme={theme} onClick={toggleTheme} />
+        <Routes>
+          <Route path='/' element={<LandingPage />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   )
 }

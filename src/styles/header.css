@@ -1,7 +1,7 @@
 .img{
   padding: 75px;
   border-radius: 100%;
-  border: 1px solid #000;
+  border: 1px solid var(--primary-color);
   font-weight: 300;
 }
 .header{
@@ -31,9 +31,11 @@
   justify-content: center;
 }
 .highlights{
+  border: 1px solid var(--primary-color);
   border-left: 4px solid rgb(83, 200, 196);
   padding: 12px;
   margin-top: 12px;
   font-size: large;
   width: 40%;
+  border-radius: 5px;
 }
