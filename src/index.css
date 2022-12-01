@@ -5,14 +5,16 @@
   box-sizing: border-box;
 }
 body {
-  background-color: #F7FAFC;
   margin: 0;
   font-family: 'Source Sans Pro', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.dark{
+  background-color: #171923;
+  color: rgba(255, 255, 255, 0.92) ;
+}
+.light{
+  background-color: #F7FAFC;
+  color: #2D3748;
 }

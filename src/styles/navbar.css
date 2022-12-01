@@ -1,5 +1,4 @@
 .navbar{
-  background-color: #fff;
   font-weight: 300;
   position: fixed;
   top: 0;
@@ -28,8 +27,8 @@
   margin-left: 4px;
   width: 32px;
   height: 32px;
-  background-color: #fff;
   border-radius: 8px;
+  background: transparent;
 }
 .inactive{
   display: none;
