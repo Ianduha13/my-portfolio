@@ -2,12 +2,14 @@
   font-family: var(--title-font);
   font-weight: var(--title-weight);
   font-size: 2rem;
-  margin-top: 80px;
+  margin-top: 40px;
+  padding-top: 40px;
   display: flex;
   justify-content: center;
 }
 .tech-section{
   width: 100%;
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
   align-items: center;

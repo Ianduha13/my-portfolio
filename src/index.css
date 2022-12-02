@@ -24,6 +24,11 @@ b{
   font-family: var(--title-font);
   font-weight: var(--title-weight);
 }
+.App{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
 .dark{
   background-color: #171923;
   color: rgba(255, 255, 255, 0.92) ;

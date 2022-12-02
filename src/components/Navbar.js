@@ -2,7 +2,7 @@ import "../styles/navbar.css"
 import { FaMoon, FaSun, FaGithub } from "react-icons/fa"
 import { useNavigate } from "react-router-dom"
 
-const Navbar = ({ theme, onClick }) => {
+const Navbar = ({ theme, handleTheme }) => {
   const navigate = useNavigate()
   return (
     <nav className='navbar'>
@@ -35,7 +35,7 @@ const Navbar = ({ theme, onClick }) => {
               <FaGithub size='1.2em' color='white' />
             )}
           </button>
-          <button className='navbar-btn' onClick={() => onClick()}>
+          <button className='navbar-btn' onClick={handleTheme}>
             {theme === "light" ? (
               <FaMoon size='1.2em' />
             ) : (

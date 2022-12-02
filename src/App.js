@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react"
+import { useState } from "react"
 import { BrowserRouter, Routes, Route } from "react-router-dom"
 import Footer from "./components/Footer"
 import Navbar from "./components/Navbar"
@@ -7,17 +7,14 @@ import LandingPage from "./pages/LandingPage"
 
 function App() {
   const [theme, setTheme] = useState("dark")
-  const toggleTheme = () => {
-    theme === "dark" ? setTheme("light") : setTheme("dark")
+  const handleTheme = () => {
+    const newTheme = () => (theme === "dark" ? "light" : "dark")
+    setTheme(newTheme)
   }
-  useEffect(() => {
-    document.body.className = theme
-  }, [theme])
-
   return (
     <div className={`App ${theme}`}>
       <BrowserRouter>
-        <Navbar theme={theme} onClick={toggleTheme} />
+        <Navbar theme={theme} handleTheme={handleTheme} />
         <Routes>
           <Route path='/' element={<LandingPage />} />
           <Route path='/stack' element={<StackPage />} />

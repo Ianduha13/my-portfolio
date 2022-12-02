@@ -4,11 +4,11 @@ import Projects from "../components/Projects"
 
 const LandingPage = () => {
   return (
-    <>
+    <section>
       <Header />
       <Highlights />
       <Projects />
-    </>
+    </section>
   )
 }
 
