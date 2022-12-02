@@ -11,7 +11,7 @@ const StackPage = () => {
   return (
     <section className='tech-section'>
       <header className='tech-header'>Tech Stack</header>
-      <p>
+      <p className='tech-description'>
         A list of my favorite tools and technologies that I use on a regular
         basis.
       </p>

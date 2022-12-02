@@ -2,13 +2,13 @@
 .project-header{
   font-family: var(--title-font);
   font-weight: var(--title-weight);
-  margin-top: 40px;
   font-size: 2rem;
   width: 90%;
   max-width: 800px;
 }
 .projects-section{
   width: 100%;
+  margin-top: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,7 @@
 }
 .project-card{
   font-weight: 500;
-  margin-top: 12px;
+  margin-top: 1rem;
   width: 90%;
   max-width: 800px;
   padding: 1rem;
@@ -31,4 +31,10 @@
 }
 .project-card:hover{
   transform: scale(1.01);
+}
+
+@media(max-width: 700px){
+  .projects-section{
+    text-align: center;
+  }
 }
