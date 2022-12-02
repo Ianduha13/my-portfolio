@@ -34,3 +34,12 @@
 .highlights:hover{
   transform: scale(1.01);
 }
+@media (max-width: 700px) {
+  .highlights-container{
+    text-align: center;
+  }
+  .highlights ul li{
+    justify-content: center;
+  }
+  
+}

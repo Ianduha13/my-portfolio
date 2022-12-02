@@ -5,7 +5,9 @@ import {
   SiReact,
   SiHtml5,
   SiBootstrap,
+  SiReactrouter,
 } from "react-icons/si"
+import { TbBrandNextjs } from "react-icons/tb"
 import "../styles/stack.css"
 const StackPage = () => {
   return (
@@ -40,11 +42,24 @@ const StackPage = () => {
           usecase='Structure'
           key={8}
         />
+
+        <TechCard
+          technologie='React Router V6'
+          usecase='Frontend UI Routing'
+          icon={<SiReactrouter size='2em' color='darkgrey' />}
+          key={7}
+        />
         <TechCard
           technologie='Bootstrap'
           usecase='Frontend UI Framework'
           icon={<SiBootstrap size='2em' color='#712cf9' />}
-          key={7}
+          key={6}
+        />
+        <TechCard
+          technologie='Next.js'
+          usecase='Coming Soon...'
+          icon={<TbBrandNextjs size='2em' color='var(--primary-color)' />}
+          key={6}
         />
       </div>
     </section>
