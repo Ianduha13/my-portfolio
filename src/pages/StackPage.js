@@ -1,3 +1,11 @@
+import TechCard from "../components/TechCard"
+import {
+  SiJavascript,
+  SiCss3,
+  SiReact,
+  SiHtml5,
+  SiBootstrap,
+} from "react-icons/si"
 import "../styles/stack.css"
 const StackPage = () => {
   return (
@@ -8,87 +16,36 @@ const StackPage = () => {
         basis.
       </p>
       <div className='tech-card-container'>
-        <div className='tech-card'>
-          <div className='img-container'>
-            <img src='/' alt='1' />
-          </div>
-          <div className='text-container'>
-            <h4>React</h4>
-            <p>Web Development</p>
-          </div>
-        </div>
-        <div className='tech-card'>
-          <div className='img-container'>
-            <img src='/' alt='2' />
-          </div>
-          <div className='text-container'>
-            <h4>React</h4>
-            <p>Web Development</p>
-          </div>
-        </div>
-        <div className='tech-card'>
-          <div className='img-container'>
-            <img src='/' alt='3' />
-          </div>
-          <div className='text-container'>
-            <h4>React</h4>
-            <p>Web Development</p>
-          </div>
-        </div>
-        <div className='tech-card'>
-          <div className='img-container'>
-            <img src='/' alt='4' />
-          </div>
-          <div className='text-container'>
-            <h4>React</h4>
-            <p>Web Development</p>
-          </div>
-        </div>
-        <div className='tech-card'>
-          <div className='img-container'>
-            <img src='/' alt='5' />
-          </div>
-          <div className='text-container'>
-            <h4>React</h4>
-            <p>Web Development</p>
-          </div>
-        </div>
-        <div className='tech-card'>
-          <div className='img-container'>
-            <img src='/' alt='7' />
-          </div>
-          <div className='text-container'>
-            <h4>React</h4>
-            <p>Web Development</p>
-          </div>
-        </div>
-        <div className='tech-card'>
-          <div className='img-container'>
-            <img src='/' alt='8' />
-          </div>
-          <div className='text-container'>
-            <h4>React</h4>
-            <p>Web Development</p>
-          </div>
-        </div>
-        <div className='tech-card'>
-          <div className='img-container'>
-            <img src='/' alt='9' />
-          </div>
-          <div className='text-container'>
-            <h4>React</h4>
-            <p>Web Development</p>
-          </div>
-        </div>
-        <div className='tech-card'>
-          <div className='img-container'>
-            <img src='/' alt='10' />
-          </div>
-          <div className='text-container'>
-            <h4>React</h4>
-            <p>Web Development</p>
-          </div>
-        </div>
+        <TechCard
+          technologie='React'
+          usecase='Frontend Web Development'
+          icon={<SiReact color='#42a5f5 ' size='1.75em' />}
+          key={1}
+        />
+        <TechCard
+          technologie='JavaScript'
+          usecase='Frontend Web Development'
+          icon={<SiJavascript color='#F0DB4F' size='1.75em' />}
+          key={10}
+        />
+        <TechCard
+          technologie='CSS'
+          usecase='Frontend Web Design'
+          icon={<SiCss3 color='#2962ff ' size='1.75em' />}
+          key={9}
+        />
+        <TechCard
+          technologie='HTML 5'
+          icon={<SiHtml5 size='1.75em' color='#e34c26' />}
+          usecase='Structure'
+          key={8}
+        />
+        <TechCard
+          technologie='Bootstrap'
+          usecase='Frontend UI Framework'
+          icon={<SiBootstrap size='2em' color='#712cf9' />}
+          key={7}
+        />
       </div>
     </section>
   )

@@ -23,7 +23,9 @@
   margin-top: 4px;
 }
 .highlights ul li{
+  width: fit-content;
   margin-top: 4px;
+  cursor: pointer;
 }
 .highlights ul li a{
   text-decoration: none;

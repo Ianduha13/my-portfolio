@@ -5,7 +5,8 @@
   justify-content: center;
 }
 .footer-container{
-  width: 40%;
+  width: 90%;
+  max-width: 800px;
   display: flex;
   justify-content: space-between;
   align-items: center;

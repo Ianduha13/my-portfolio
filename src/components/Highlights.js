@@ -18,14 +18,14 @@ const Highlights = () => {
           </li>
           <li>
             <a
-              href='https://github.com/Ianduha13?tab=repositories'
+              href='https://www.linkedin.com/in/ian-duhamel/'
               target={"_blank"}
               rel='noreferrer'
             >
               LinkedIn Page
             </a>
           </li>
-          <li onClick={() => navigate("./techstack")}>Tech Stack</li>
+          <li onClick={() => navigate("./stack")}>Tech Stack</li>
         </ul>
       </section>
     </div>

@@ -41,9 +41,11 @@
 .img-container{
   height: 42px;
   width: 42px;
-  background-color: #fff;
+  background-color: var(--third-bg-color);
   border-radius: 5px;
-  background: rgb(132, 220, 236)
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .text-container{
   margin-left: 4px;
