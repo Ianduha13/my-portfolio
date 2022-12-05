@@ -47,6 +47,11 @@
   justify-content: center;
   align-items: center;
 }
+.tech-description{
+  font-weight: var(--text-weight) ;
+  text-align: center;
+  font-size: 1.4rem;
+}
 .text-container{
   margin-left: 4px;
 }

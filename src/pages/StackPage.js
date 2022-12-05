@@ -15,7 +15,7 @@ const StackPage = () => {
       <header className='tech-header'>Tech Stack</header>
       <p className='tech-description'>
         A list of my favorite tools and technologies that I use on a regular
-        basis.
+        day.
       </p>
       <div className='tech-card-container'>
         <TechCard

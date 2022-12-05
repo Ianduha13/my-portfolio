@@ -11,8 +11,8 @@ const Header = () => {
         <div className='presentation-container'>
           <div className='img'>img</div>
           <section className='presentation'>
-            My name is <b>Ian</b> and I'm a Frontend Developer and an a
-            technology lover from Argentina 🇦🇷 <br />
+            My name is <b>Ian</b>, I'm a Frontend Developer and a technology
+            lover from Argentina 🇦🇷 <br />
             This is my digital showroom, where I show my most interesting
             development proyects.
           </section>

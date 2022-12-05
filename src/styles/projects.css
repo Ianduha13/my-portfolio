@@ -43,4 +43,10 @@ a{
   .projects-section{
     text-align: center;
   }
+  .card-group{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 }
