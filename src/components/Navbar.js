@@ -28,16 +28,21 @@ const Navbar = ({ theme, handleTheme }) => {
           </ul>
         </div>
         <div className='navbar-right'>
-          <button className='navbar-btn'>
+          <a
+            className='navbar-btn'
+            href='https://github.com/Ianduha13?tab=repositories'
+            target={"_blank"}
+            rel='noreferrer'
+          >
             {theme === "light" ? (
-              <FaGithub size='1.2em' />
+              <FaGithub size='1em' color='black' />
             ) : (
-              <FaGithub size='1.2em' color='white' />
+              <FaGithub size='1em' color='white' />
             )}
-          </button>
+          </a>
           <button className='navbar-btn' onClick={handleTheme}>
             {theme === "light" ? (
-              <FaMoon size='1.2em' />
+              <FaMoon size='1.2em' color='black' />
             ) : (
               <FaSun size='1.2em' color='white' />
             )}

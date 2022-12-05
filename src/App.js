@@ -20,7 +20,7 @@ function App() {
           <Route path='/stack' element={<StackPage />} />
         </Routes>
       </BrowserRouter>
-      <Footer />
+      <Footer theme={theme} />
     </div>
   )
 }

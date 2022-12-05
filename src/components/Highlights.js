@@ -5,8 +5,9 @@ const Highlights = () => {
   return (
     <div className='highlights-container'>
       <section className='highlights'>
-        <p>Highlights:</p>
+        <p>Know me more!</p>
         <ul>
+          <li onClick={() => navigate("./stack")}>Tech Stack</li>
           <li>
             <a
               href='https://github.com/Ianduha13?tab=repositories'
@@ -25,7 +26,6 @@ const Highlights = () => {
               LinkedIn Page
             </a>
           </li>
-          <li onClick={() => navigate("./stack")}>Tech Stack</li>
         </ul>
       </section>
     </div>

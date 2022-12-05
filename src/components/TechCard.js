@@ -1,4 +1,3 @@
-import "../styles/techcard.css"
 const TechCard = ({ technologie, usecase, icon }) => {
   return (
     <div className='tech-card'>

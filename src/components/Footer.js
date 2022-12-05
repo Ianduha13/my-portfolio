@@ -1,11 +1,38 @@
 import "../styles/footer.css"
+import { FaGithub, FaLinkedin } from "react-icons/fa"
 
-const Footer = () => {
+const Footer = ({ theme }) => {
+  console.log(theme)
   return (
     <footer className='footer'>
       <div className='footer-container'>
-        <div className='footer-left'>copyright</div>
-        <div className='footer-right'> icons</div>
+        <div className='footer-left'>Designed by: Ian Duhamel 2022</div>
+        <div className='footer-right'>
+          <a
+            className='navbar-btn'
+            href='https://github.com/Ianduha13?tab=repositories'
+            target={"_blank"}
+            rel='noreferrer'
+          >
+            {theme === "light" ? (
+              <FaGithub size='1em' color='black' />
+            ) : (
+              <FaGithub size='1em' color='white' />
+            )}
+          </a>
+          <a
+            className='navbar-btn'
+            href='https://github.com/Ianduha13?tab=repositories'
+            target={"_blank"}
+            rel='noreferrer'
+          >
+            {theme === "light" ? (
+              <FaLinkedin size='1.2em' color='black' />
+            ) : (
+              <FaLinkedin size='1.2em' color='white' />
+            )}
+          </a>
+        </div>
       </div>
     </footer>
   )
