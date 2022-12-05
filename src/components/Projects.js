@@ -1,35 +1,60 @@
 import "../styles/projects.css"
+import TinyCard from "./TinyCard"
 const Projects = () => {
   return (
     <section className='projects-section'>
       <header className='project-header'>Projects</header>
-      <div className='project-card'>
-        <h4>Pendraw Digital Camp</h4>
+      <a
+        href='https://my-portfolio-eta-bice.vercel.app/'
+        target={"_blank"}
+        rel='noreferrer'
+        className='project-card'
+      >
+        <h4>My Portfolio</h4>
+        <div className='card-group'>
+          <TinyCard technology={"React"} color={"react"} />
+          <TinyCard technology={"CSS"} color={"css"} />
+          <TinyCard technology={"React Router"} color={"react-router"} />
+        </div>
         <p>
-          Peterpitch is a tool that takes the fun in your company seriously and
-          turns your meetings into real performance boosters. With Peterpitch,
-          you round up the pack of employees and turn even the shakiest puppies
-          into true wolves.
+          I done my Portfolio with great practices. Its a SPA by react-router,
+          and all the styling and animations where made by CSS.
         </p>
-      </div>
-      <div className='project-card'>
-        <h4>Pendraw Digital Camp</h4>
+      </a>
+      <a
+        href='https://my-portfolio-eta-bice.vercel.app/'
+        target={"_blank"}
+        rel='noreferrer'
+        className='project-card'
+      >
+        <h4>My Portfolio</h4>
+        <div className='card-group'>
+          <TinyCard technology={"React"} color={"react"} />
+          <TinyCard technology={"CSS"} color={"css"} />
+          <TinyCard technology={"React Router"} color={"react-router"} />
+        </div>
         <p>
-          Peterpitch is a tool that takes the fun in your company seriously and
-          turns your meetings into real performance boosters. With Peterpitch,
-          you round up the pack of employees and turn even the shakiest puppies
-          into true wolves.
+          I done my Portfolio with great practices. Its a SPA by react-router,
+          and all the styling and animations where made by CSS.
         </p>
-      </div>
-      <div className='project-card'>
-        <h4>Pendraw Digital Camp</h4>
+      </a>
+      <a
+        href='https://my-portfolio-eta-bice.vercel.app/'
+        target={"_blank"}
+        rel='noreferrer'
+        className='project-card'
+      >
+        <h4>My Portfolio</h4>
+        <div className='card-group'>
+          <TinyCard technology={"React"} color={"react"} />
+          <TinyCard technology={"CSS"} color={"css"} />
+          <TinyCard technology={"React Router"} color={"react-router"} />
+        </div>
         <p>
-          Peterpitch is a tool that takes the fun in your company seriously and
-          turns your meetings into real performance boosters. With Peterpitch,
-          you round up the pack of employees and turn even the shakiest puppies
-          into true wolves.
+          I done my Portfolio with great practices. Its a SPA by react-router,
+          and all the styling and animations where made by CSS.
         </p>
-      </div>
+      </a>
     </section>
   )
 }

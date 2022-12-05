@@ -3,12 +3,12 @@ import Highlights from "../components/Highlights"
 import Projects from "../components/Projects"
 import "../styles/landing.css"
 
-const LandingPage = ({ theme }) => {
+const LandingPage = () => {
   return (
     <section className='landing-page'>
       <Header />
       <Highlights />
-      <Projects theme={theme} />
+      <Projects />
     </section>
   )
 }
