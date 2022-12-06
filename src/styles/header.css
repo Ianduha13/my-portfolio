@@ -26,10 +26,9 @@
   margin-left: 20px;
   font-size: 1.5rem;
 }
-.img{
-  padding: 75px;
-  border-radius: 100%;
-  border: 1px solid var(--primary-color);
+.img img{
+  width: 150px;
+  object-fit: contain;
 }
 @media (max-width:700px) {
   .presentation-container{

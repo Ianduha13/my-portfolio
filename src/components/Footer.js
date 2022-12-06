@@ -2,7 +2,6 @@ import "../styles/footer.css"
 import { FaGithub, FaLinkedin } from "react-icons/fa"
 
 const Footer = ({ theme }) => {
-  console.log(theme)
   return (
     <footer className='footer'>
       <div className='footer-container'>

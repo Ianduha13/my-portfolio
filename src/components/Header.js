@@ -1,4 +1,5 @@
 import React from "react"
+import logo from "../img/logo512.png"
 import "../styles/header.css"
 
 const Header = () => {
@@ -9,7 +10,9 @@ const Header = () => {
       </div>
       <div className='header-container'>
         <div className='presentation-container'>
-          <div className='img'>img</div>
+          <div className='img'>
+            <img src={logo} alt='logo' />
+          </div>
           <section className='presentation'>
             My name is <b>Ian</b>, I'm a Frontend Developer and a technology
             lover from Argentina 🇦🇷 <br />
