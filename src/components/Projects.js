@@ -5,6 +5,24 @@ const Projects = () => {
     <section className='projects-section'>
       <header className='project-header'>Projects</header>
       <a
+        href='https://ai-img-generator.vercel.app/'
+        target={"_blank"}
+        rel='noreferrer'
+        className='project-card'
+      >
+        <h4>Img IA Generator</h4>
+        <div className='card-group'>
+          <TinyCard technology={"React"} color={"react"} />
+          <TinyCard technology={"CSS"} color={"css"} />
+          <TinyCard technology={"Express"} color={"express"} />
+        </div>
+        <p>
+          I developed an image generator app using React.js, Express, and the
+          Dalle-2 API. It's a user-friendly and powerful tool that allows you to
+          easily create unique images with just a few clicks.
+        </p>
+      </a>
+      <a
         href='https://tesla-landingpage-ianduhamel.vercel.app/'
         target={"_blank"}
         rel='noreferrer'
@@ -17,9 +35,10 @@ const Projects = () => {
           <TinyCard technology={"Javascript"} color={"javascript"} />
         </div>
         <p>
-          Tesla is a great car brand with beatiful desings, and i found a very
-          interesting challenge making a clon of tesla.com only with JS CSS and
-          React
+          Tesla is an amazing car brand known for its beautiful designs.
+          Recently, I took on the challenge of creating a clone of Tesla's
+          website using only JavaScript, CSS, and React. It was a really
+          interesting project and I'm excited to share it with others.
         </p>
       </a>
       <a
@@ -35,25 +54,10 @@ const Projects = () => {
           <TinyCard technology={"React Router"} color={"react-router"} />
         </div>
         <p>
-          I done my Portfolio with great practices. Its an SPA by react-router,
-          and all the styling and animations were made by CSS.
-        </p>
-      </a>
-      <a
-        href='https://my-portfolio-eta-bice.vercel.app/'
-        target={"_blank"}
-        rel='noreferrer'
-        className='project-card'
-      >
-        <h4>My Portfolio</h4>
-        <div className='card-group'>
-          <TinyCard technology={"React"} color={"react"} />
-          <TinyCard technology={"CSS"} color={"css"} />
-          <TinyCard technology={"React Router"} color={"react-router"} />
-        </div>
-        <p>
-          I done my Portfolio with great practices. Its an SPA by react-router,
-          and all the styling and animations where made by CSS.
+          I'm proud to say that I built my portfolio using best practices. It's
+          a single-page application powered by react-router, and all the styling
+          and animations were created using CSS. I'm excited to share it with
+          others and I hope you enjoy it!
         </p>
       </a>
     </section>

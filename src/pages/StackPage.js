@@ -6,6 +6,7 @@ import {
   SiHtml5,
   SiBootstrap,
   SiReactrouter,
+  SiExpress,
 } from "react-icons/si"
 import { TbBrandNextjs } from "react-icons/tb"
 import "../styles/stack.css"
@@ -48,6 +49,12 @@ const StackPage = () => {
           usecase='Frontend UI Routing'
           icon={<SiReactrouter size='2em' color='darkgrey' />}
           key={7}
+        />
+        <TechCard
+          technologie='Express.js'
+          usecase='Serverless Function'
+          icon={<SiExpress size='2em' color='white' />}
+          key={11}
         />
         <TechCard
           technologie='Bootstrap'
