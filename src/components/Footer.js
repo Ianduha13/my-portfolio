@@ -8,7 +8,7 @@ const Footer = ({ theme }) => {
         <div className='footer-left'>Designed by: Ian Duhamel 2022</div>
         <div className='footer-right'>
           <a
-            className='navbar-btn'
+            className='footer-btn'
             href='https://github.com/Ianduha13?tab=repositories'
             target={"_blank"}
             rel='noreferrer'
@@ -20,7 +20,7 @@ const Footer = ({ theme }) => {
             )}
           </a>
           <a
-            className='navbar-btn'
+            className='footer-btn'
             href='https://github.com/Ianduha13?tab=repositories'
             target={"_blank"}
             rel='noreferrer'

@@ -14,3 +14,19 @@
 .footer-right{
   display: flex;
 }
+.footer-btn{
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 4px;
+  width: 32px;
+  height: 32px;
+  border-radius: 8px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+.footer-btn:hover{
+  background-color: var(--third-bg-color);
+}
