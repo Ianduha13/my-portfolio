@@ -5,6 +5,26 @@ const Projects = () => {
 		<section className='projects-section'>
 			<header className='project-header'>Projects</header>
 			<a
+				href='https://code-ecommerce.vercel.app/'
+				target={"_blank"}
+				rel='noreferrer'
+				className='project-card'
+			>
+				<h4>Code Commerce</h4>
+				<div className='card-group'>
+					<TinyCard technology={"Redux"} color={"redux"} />
+					<TinyCard technology={"React"} color={"react"} />
+					<TinyCard technology={"React Router"} color={"react-router"} />
+				</div>
+				<p>
+					I built a marketplace using Redux and React Router to create a
+					single-page application. I implemented Redux in a way that ensures
+					efficient data management and seamless updates to the UI. The process
+					of building this project was enjoyable and rewarding, and I now have a
+					greater desire to improve my skills in state management.
+				</p>
+			</a>
+			<a
 				href='https://ai-img-generator.vercel.app/'
 				target={"_blank"}
 				rel='noreferrer'

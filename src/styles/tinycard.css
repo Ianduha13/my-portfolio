@@ -25,9 +25,9 @@
   background-color: rgba(240, 219, 79, 0.6);
   border: rgb(240, 219, 79) solid 1px;
 }
-.bootstrap{
-  background-color: rgba(37, 150, 190, 0.6);
-  border: rgb(37, 150, 190) solid 1px;
+.redux{
+  background-color:rgba(113, 44, 249, 0.6);
+  border: rgb(113, 44, 249) solid 1px;
 }
 .express{
   background-color:rgba(60, 135, 58, 0.6);
