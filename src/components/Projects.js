@@ -24,6 +24,7 @@ const Projects = () => {
 					greater desire to improve my skills in state management.
 				</p>
 			</a>
+			
 			<a
 				href='https://ai-img-generator.vercel.app/'
 				target={"_blank"}
@@ -42,23 +43,31 @@ const Projects = () => {
 					easily create unique images with just a few clicks.
 				</p>
 			</a>
-			<a
-				href='https://typing-practice-ianduhamel.vercel.app/'
+<a
+				href='https://monkeys.vercel.app/'
 				target={"_blank"}
 				rel='noreferrer'
 				className='project-card'
 			>
-				<h4>Typing Practice App</h4>
+				<h4>Monkey NFT Landing Page (in depth)</h4>
 				<div className='card-group'>
-					<TinyCard technology={"Javascript"} color={"javascript"} />
 					<TinyCard technology={"React"} color={"react"} />
+					<TinyCard technology={"CSS"} color={"css"} />
 				</div>
 				<p>
-					I developed a keyboard typing practice app using React.js, Javascript,
-					and CSS. This app is designed to help users improve their typing
-					speed, and it also allows users to share their results with their
-					friends. I really enjoyed working on this project and had a lot of fun
-					bringing it to life.
+					I am excited to share my latest project: a landing page inspired by a
+					beautiful UI design from Figma. My goal for this project was to learn
+					how to use React and CSS to recreate the desired effects and bring the
+					design to life. The design inspiration for this project came from 
+					<a
+						href='https://www.figma.com/community/file/1185001333927027235'
+						target={"_blank"}
+						rel='noreferrer'
+					>
+						&nbsp;HERE
+					</a>
+					. I used React for the interactive elements of the page, such as the
+					carousel, and CSS for the styling and animations.
 				</p>
 			</a>
 			<a
@@ -97,6 +106,25 @@ const Projects = () => {
 					a single-page application powered by react-router, and all the styling
 					and animations were created using CSS. I'm excited to share it with
 					others and I hope you enjoy it!
+				</p>
+			</a>
+			<a
+				href='https://typing-practice-ianduhamel.vercel.app/'
+				target={"_blank"}
+				rel='noreferrer'
+				className='project-card'
+			>
+				<h4>Typing Practice App</h4>
+				<div className='card-group'>
+					<TinyCard technology={"Javascript"} color={"javascript"} />
+					<TinyCard technology={"React"} color={"react"} />
+				</div>
+				<p>
+					I developed a keyboard typing practice app using React.js, Javascript,
+					and CSS. This app is designed to help users improve their typing
+					speed, and it also allows users to share their results with their
+					friends. I really enjoyed working on this project and had a lot of fun
+					bringing it to life.
 				</p>
 			</a>
 		</section>
