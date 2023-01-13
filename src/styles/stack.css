@@ -58,6 +58,7 @@
 .tech-card:hover{
   transform: scale(1.01);
 }
+
 @media (max-width:700px) {
 .tech-card-container{
   grid-template-columns: auto;

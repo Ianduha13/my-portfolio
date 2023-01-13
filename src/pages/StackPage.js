@@ -5,7 +5,7 @@ import {
 	SiReact,
 	SiHtml5,
 	SiReactrouter,
-	SiExpress,
+	SiTypescript,
 	SiRedux,
 } from "react-icons/si"
 import { TbBrandNextjs } from "react-icons/tb"
@@ -57,15 +57,14 @@ const StackPage = () => {
 					key={6}
 				/>
 				<TechCard
-					technologie='Express.js'
-					usecase='Serverless Functions'
-					icon={<SiExpress size='2em' color='white' />}
+					technologie='Typescript'
+					usecase='Currently learning'
+					icon={<SiTypescript size='2em' color='007acc' />}
 					key={11}
 				/>
-
 				<TechCard
 					technologie='Next.js'
-					usecase='Coming Soon...'
+					usecase='Currently learning'
 					icon={<TbBrandNextjs size='2em' color='var(--primary-color)' />}
 					key={6}
 				/>
