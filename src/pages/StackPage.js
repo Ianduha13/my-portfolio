@@ -58,7 +58,7 @@ const StackPage = () => {
 				/>
 				<TechCard
 					technologie='Typescript'
-					usecase='Currently learning'
+					usecase='Large-scale JavaScript.'
 					icon={<SiTypescript size='2em' color='007acc' />}
 					key={11}
 				/>
