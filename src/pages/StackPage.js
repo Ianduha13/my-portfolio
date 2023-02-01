@@ -5,6 +5,7 @@ import {
 	SiReact,
 	SiHtml5,
 	SiReactrouter,
+	SiTailwindcss,
 	SiTypescript,
 	SiRedux,
 } from "react-icons/si"
@@ -57,8 +58,14 @@ const StackPage = () => {
 					key={6}
 				/>
 				<TechCard
+					technologie='TailwindCSS'
+					usecase='CSS Framework'
+					icon={<SiTailwindcss size='2em' color='4dc0b5' />}
+					key={111}
+				/>
+				<TechCard
 					technologie='Typescript'
-					usecase='Large-scale JavaScript.'
+					usecase='Strong typing on JavaScript'
 					icon={<SiTypescript size='2em' color='007acc' />}
 					key={11}
 				/>
