@@ -1,45 +1,44 @@
-.highlights-container{
-  margin-top: 36px;
-  display: flex;
-  justify-content: center;
+.highlights-container {
+	margin-top: 36px;
+	display: flex;
+	justify-content: center;
 }
-.highlights{
-  background-color: var(--secondary-bg-color);
-  border: 0px solid var(--primary-color);
-  border-left: 4px solid rgb(83, 200, 196);
-  padding: 16px 16px;
-  font-size: 18px;
-  font-weight: 200;
-  border-radius: 5px;
-  width: 90%;
-  max-width: 800px;
-  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),0 4px 6px -2px rgba(0, 0, 0, 0.05);;
+.highlights {
+	background-color: var(--secondary-bg-color);
+	border: 0px solid var(--primary-color);
+	border-left: 4px solid rgb(83, 200, 196);
+	padding: 16px 16px;
+	font-size: 18px;
+	border-radius: 5px;
+	width: 90%;
+	max-width: 800px;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+		0 4px 6px -2px rgba(0, 0, 0, 0.05);
 }
 .highlights p {
-  font-family: var(--title-font);
-  font-weight: var(--title-weight);
-  font-size: 1.2rem;
-  margin-left: 4px;
-  margin-top: 4px;
+	font-family: var(--title-font);
+	font-weight: var(--title-weight);
+	font-size: 1.2rem;
+	margin-left: 4px;
+	margin-top: 4px;
 }
-.highlights ul li{
-  width: fit-content;
-  margin-top: 4px;
-  cursor: pointer;
+.highlights ul li {
+	width: fit-content;
+	margin-top: 4px;
+	cursor: pointer;
 }
-.highlights ul li a{
-  text-decoration: none;
-  color: var(--primary-color);
+.highlights ul li a {
+	text-decoration: none;
+	color: var(--primary-color);
 }
-.highlights:hover{
-  transform: scale(1.01);
+.highlights:hover {
+	transform: scale(1.01);
 }
 @media (max-width: 700px) {
-  .highlights-container{
-    text-align: center;
-  }
-  .highlights ul {
-    justify-content: center;
-  }
-  
+	.highlights-container {
+		text-align: center;
+	}
+	.highlights ul {
+		justify-content: center;
+	}
 }

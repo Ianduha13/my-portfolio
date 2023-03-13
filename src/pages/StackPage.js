@@ -60,7 +60,7 @@ const StackPage = () => {
 				<TechCard
 					technologie='TailwindCSS'
 					usecase='CSS Framework'
-					icon={<SiTailwindcss size='2em' color='4dc0b5' />}
+					icon={<SiTailwindcss size='2em' color='#36B7F0' />}
 					key={111}
 				/>
 				<TechCard
