@@ -5,35 +5,35 @@
 	border-radius: 10%;
 	color: var(--primary-color);
 }
-.react {
+.React {
 	background-color: rgba(37, 150, 190, 0.6);
 	border: rgb(37, 150, 190) solid 1px;
 }
-.tailwind {
+.TailwindCSS {
 	background-color: rgb(54, 183, 240, 0.6);
 	border: rgb(54, 183, 240) solid 1px;
 }
-.css {
+.CSS {
 	background-color: rgba(41, 98, 255, 0.6);
 	border: rgb(41, 98, 255) solid 1px;
 }
-.react-router {
+.React-Router {
 	background-color: rgba(255, 71, 26, 0.6);
 	border: rgb(255, 71, 26) solid 1px;
 }
-.html {
+.Html {
 	background-color: rgba(37, 150, 190, 0.6);
 	border: rgb(37, 150, 190) solid 1px;
 }
-.javascript {
+.Javascript {
 	background-color: rgba(240, 219, 79, 0.6);
 	border: rgb(240, 219, 79) solid 1px;
 }
-.redux {
+.Redux {
 	background-color: rgba(113, 44, 249, 0.6);
 	border: rgb(113, 44, 249) solid 1px;
 }
-.express {
+.Express {
 	background-color: rgba(60, 135, 58, 0.6);
 	border: rgba(60, 135, 58, 1) solid 1px;
 }

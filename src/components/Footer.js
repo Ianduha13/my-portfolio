@@ -22,7 +22,7 @@ const Footer = ({ theme }) => {
 					<a
 						className='footer-btn'
 						href='https://github.com/Ianduha13?tab=repositories'
-						target={"_blank"}
+						target='_blank'
 						rel='noreferrer'
 					>
 						{theme === "light" ? (
