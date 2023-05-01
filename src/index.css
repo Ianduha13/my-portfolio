@@ -1,49 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;700&family=Red+Hat+Text:wght@300;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;500;700&family=Red+Hat+Text:wght@300;500;700&display=swap");
 
-*{
-  margin: 0;
-  box-sizing: border-box;
-  font-family: 'Red Hat Text', sans-serif;
-  font-weight: 300;
-  --title-font: 'Red Hat Display', sans-serif;
-  --title-weight: 700;
-  
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: "Red Hat Text", sans-serif;
+	font-weight: 300;
+	--title-font: "Red Hat Display", sans-serif;
+	--title-weight: 700;
 }
 body {
-  margin: 0;
-  font-family: 'Red Hat Text', sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  overflow-y: auto;
-  overflow-x: hidden;
-  display: flex;
-  flex-direction: column;
+	margin: 0;
+	font-family: "Red Hat Text", sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	overflow-y: auto;
+	overflow-x: hidden;
+	display: flex;
+	flex-direction: column;
 }
 
-b{
-  font-family: var(--title-font);
-  font-weight: var(--title-weight);
+b {
+	font-family: var(--title-font);
+	font-weight: var(--title-weight);
 }
-.App{
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+.App {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
 }
-.dark{
-  background-color: #171923;
-  color: rgba(255, 255, 255, 0.92) ;
-  --primary-color: rgba(255, 255, 255, 0.92) ;
-  --secondary-color: #2D3748;
-  --primary-bg-color: #171923;
-  --secondary-bg-color: rgb(30, 37, 51);
-  --third-bg-color: #1A202C;
+.dark {
+	background-color: #171923;
+	color: rgba(255, 255, 255, 0.92);
+	--primary-color: rgba(255, 255, 255, 0.92);
+	--secondary-color: #2d3748;
+	--primary-bg-color: #171923;
+	--secondary-bg-color: rgb(30, 37, 51);
+	--third-bg-color: #1a202c;
 }
-.light{
-  background-color: #F7FAFC;
-  color: #2D3748;
-  --primary-color: #2D3748 ;
-  --secondary-color: #EDF2F7;
-  --primary-bg-color: #F7FAFC;
-  --secondary-bg-color:#EDF2F7;;
-  --third-bg-color: #EDF2F7;
+.light {
+	background-color: #f7fafc;
+	color: #2d3748;
+	--primary-color: #2d3748;
+	--secondary-color: #edf2f7;
+	--primary-bg-color: #f7fafc;
+	--secondary-bg-color: #edf2f7;
+	--third-bg-color: #edf2f7;
 }

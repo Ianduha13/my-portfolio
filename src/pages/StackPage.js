@@ -4,10 +4,12 @@ import {
 	SiCss3,
 	SiReact,
 	SiHtml5,
-	SiReactrouter,
 	SiTailwindcss,
 	SiTypescript,
 	SiRedux,
+	SiMaterialui,
+	SiGraphql,
+	SiExpress,
 } from "react-icons/si"
 import { TbBrandNextjs } from "react-icons/tb"
 import "../styles/stack.css"
@@ -24,39 +26,52 @@ const StackPage = () => {
 			icon: <SiJavascript color='#F0DB4F' size='1.75em' />,
 		},
 		{
+			technologie: "Next.js",
+			usecase: "React Framework",
+			icon: <TbBrandNextjs size='2em' color='var(--primary-color)' />,
+		},
+		{
 			technologie: "CSS",
 			usecase: "Frontend Web Design",
 			icon: <SiCss3 color='#2962ff ' size='1.75em' />,
 		},
-		{
-			technologie: "HTML 5",
-			usecase: "Structure",
-			icon: <SiHtml5 size='1.75em' color='#e34c26' />,
-		},
-		{
-			technologie: "React Router V6",
-			usecase: "Frontend UI Routing",
-			icon: <SiReactrouter size='2em' color='darkgrey' />,
-		},
+
 		{
 			technologie: "Redux",
 			usecase: "State Management",
 			icon: <SiRedux size='2em' color='#712cf9' />,
 		},
 		{
+			technologie: "GraphQL",
+			usecase: "Query Language",
+			icon: <SiGraphql size='2em' color='#DE33A6' />,
+		},
+		{
 			technologie: "TailwindCSS",
 			usecase: "CSS Framework",
-			icon: <SiTailwindcss size='2em' color='#36B7F0' />,
+			icon: <SiTailwindcss size='2em' color='#38BDF8' />,
 		},
+		{
+			technologie: "Material-UI",
+			usecase: "CSS Framework",
+			icon: <SiMaterialui size='2em' color='#0079F2' />,
+		},
+
 		{
 			technologie: "Typescript",
 			usecase: "Strong typing on JavaScript",
 			icon: <SiTypescript size='2em' color='007acc' />,
 		},
 		{
-			technologie: "Next.js",
-			usecase: "Currently learning",
-			icon: <TbBrandNextjs size='2em' color='var(--primary-color)' />,
+			technologie: "HTML 5",
+			usecase: "Structure",
+			icon: <SiHtml5 size='1.75em' color='#e34c26' />,
+		},
+
+		{
+			technologie: "Express.js",
+			usecase: "Node Framework",
+			icon: <SiExpress size='2em' color='var(--primary-color)' />,
 		},
 	]
 	return (

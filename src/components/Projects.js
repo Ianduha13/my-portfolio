@@ -4,6 +4,13 @@ import ProjectCard from "./ProjectCard"
 const Projects = () => {
 	const projects = [
 		{
+			url: "https://my-google-delta.vercel.app/",
+			title: "Google Clone",
+			technologies: ["Next", "TailwindCSS", "React"],
+			description:
+				"I was learning Next.js 13 while I finished doing an amazing project based on the most used search engine of the world. I made the whole desing with Tailwind CSS and implemented the Custom Search API made by Google",
+		},
+		{
 			url: "https://www.devink.dev/",
 			title: "Devink",
 			technologies: ["TailwindCSS", "Redux", "React"],

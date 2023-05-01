@@ -37,3 +37,7 @@
 	background-color: rgba(60, 135, 58, 0.6);
 	border: rgba(60, 135, 58, 1) solid 1px;
 }
+.Next {
+	background-color: #2d3748;
+	color: #edf2f7;
+}
