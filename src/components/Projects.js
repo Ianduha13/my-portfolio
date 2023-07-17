@@ -4,11 +4,11 @@ import ProjectCard from "./ProjectCard"
 const Projects = () => {
 	const projects = [
 		{
-			url: "https://my-google-delta.vercel.app/",
-			title: "Google Clone",
-			technologies: ["Next", "TailwindCSS", "React"],
+			url: "https://landing-tesla-clon.vercel.app/",
+			title: "Landing Tesla",
+			technologies: ["Astro", "TailwindCSS"],
 			description:
-				"I was learning Next.js 13 while I finished doing an amazing project based on the most used search engine of the world. I made the whole desing with Tailwind CSS and implemented the Custom Search API made by Google",
+				"Discover my new project: a Tesla homepage replica built using Astro and TailwindCSS, complete with navbar animations designed via Intersection Observer and Get Client Bond Rect.",
 		},
 		{
 			url: "https://www.devink.dev/",
@@ -25,11 +25,11 @@ const Projects = () => {
 				"In this project, is interesting how I implemented Redux in a way that ensures efficient data management and seamless updates to the UI complemented by React Router.",
 		},
 		{
-			url: "https://ai-img-generator.vercel.app/",
-			title: "Img IA Generator",
-			technologies: ["React", "Express", "CSS"],
+			url: "https://my-google-delta.vercel.app/",
+			title: "Google Clone",
+			technologies: ["Next", "TailwindCSS", "React"],
 			description:
-				"I developed an image generator app using React.js, Express, and the Dalle-2 API. It's a user-friendly and powerful tool that allows you to easily create unique images with just a few clicks.",
+				"I was learning Next.js 13 while I finished doing an amazing project based on the most used search engine of the world. I made the whole desing with Tailwind CSS and implemented the Custom Search API made by Google",
 		},
 	]
 	return (
